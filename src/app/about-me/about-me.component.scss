@@ -1,0 +1,28 @@
+.aboutMe{
+    margin-bottom: 50px;
+    .name{
+        color: #e03a3b;
+        font-size: 20px;
+    }
+    .picture{
+        margin-bottom: 25px;
+    }
+    .text{
+        p{
+            margin-bottom: 10px;
+        }
+    }
+    .socials{
+        display: flex;
+        gap: 5px;
+        i{
+            width: 25px;
+            height: 25px;
+            border-radius: 50rem;
+            background-color: #e03a3b77;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}

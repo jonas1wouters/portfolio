@@ -1,0 +1,30 @@
+.stage{
+    background-color: #036;
+    padding: 10px;
+    margin-bottom: 50px;
+    >*{
+        margin-bottom: 10px;
+    }
+    *{
+        color: white !important;
+    }
+    .name{
+        font-size: 20px;
+    }
+    .title{
+        font-size: 32px;
+        margin-bottom: 25px;
+    }
+    .text{
+        p{
+            margin-bottom: 10px;
+        }
+    }
+    .documents{
+        margin-left: 1.2rem;
+        font-weight: bold;
+        a{
+            font-weight: 200;
+        }
+    }
+}
