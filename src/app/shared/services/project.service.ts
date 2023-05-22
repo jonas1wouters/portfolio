@@ -22,7 +22,7 @@ export class ProjectService {
       skills: ["React Native", "HTML/SASS/JS", "Python", "Azure DevOps", "TypeScript/JavaScript", "Docker", "Presenteren", "Teamwerk"],
       result: "",
       picture: "assets/images/Axxes.jpg",
-      showDetails: false
+      showDetails: true
     }, 
     {
       id: 2,
