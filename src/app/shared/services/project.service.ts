@@ -76,7 +76,7 @@ export class ProjectService {
       functions: ["Salesforce developer"],
       text: [
         "Voor het OPO 'Enterprise Development Experience' heb ik in een groep van 4 een salesforce applicatie gemaakt.",
-        "Voor onze klant 'Equinel' hadden we de opdracht gekregen om ondersteuning te bieden aan het sales-process van hun paardentrailers en campers. Dit met een aantal (26) user stories, een CRM foundation, Reports & Dashboards en het nodige Data management.",
+        "Voor onze klant 'Equibel' hadden we de opdracht gekregen om ondersteuning te bieden aan het sales-process van hun paardentrailers en campers. Dit met een aantal (26) user stories, een CRM foundation, Reports & Dashboards en het nodige Data management.",
         "Naast deze taak hebben wij ook een aantal salesforce-trailheads moeten doen. Hier ben ik echter niet gestopt, ik heb toen namelijk de badge 'DOUBLE STAR RANGER' gehaald. Een badge die volgens onze lesgevers zeer moeilijk te behalen was."
       ],
       tasks: ["Ondersteunen van een sales proces"],
