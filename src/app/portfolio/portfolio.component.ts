@@ -13,7 +13,7 @@ export class PortfolioComponent implements OnInit {
   constructor(private projectService: ProjectService){}
   
   ngOnInit(): void {
-    this.projects = this.projectService.getProjects();
+      this.projects = this.projectService.getProjects().slice(1);
     console.log(this.projects)
   }
 
