@@ -44,12 +44,13 @@ export class ProjectService {
       name: "Project 4.0 - Monitoring van oogst",
       functions: ["React-Native Full-stack developer"],
       text: [
-        "De ontwikkeling van een webapplicatie waarbij er gepronostikeerd kan worden.", 
-        "Bij DotNET Lab zijn ze constant op zoek naar manieren om een goede teamsfeer te creëren onder de collega's. Toen in 2022 de FIFA World Cup ging beginnen, leek het hen een leuk idee om een applicatie te ontwikkelen waarin elke collega de uitslag van de wedstrijd kan voorspellen.",
-        "Zo kan elk bedrijf een voorspellingsgroep aanmaken voor evenementen zoals het WK voetbal in Qatar. In deze groep kunnen alle collega's dan de uitkomst van de wedstrijden voorspellen. We hebben dn ook een klassement geïntegreerd om op basis van de verdiende punten een overzicht te krijgen van wie er het beste is in het voorspellen."
+        "De ontwikkeling van een mobiele- en webapplicatie waarmee de oogst (van aardbeien) gemonitord kan worden.", 
+        "",
+        "",
+        ""
       ],
-      tasks: ["Authenticatie (admin, managar, gebruiker, gast)", "Ontwikkelen van een simpel, duidelijk en mooi UI in AngularJS", "Ontwikkelen van een aanpasbaar en schaalbare API in .NET"],
-      skills: [".NET/C#", "SCSS", "AngularJS", "Presenteren", "Teamwerk"],
+      tasks: ["Taak 1", "Taak 2", "Taak 3"],
+      skills: ["React Native", "Python", "AI", "Presenteren", "Teamwerk"],
       result: "",
       picture: "assets/images/vito.png",
       showDetails: false
