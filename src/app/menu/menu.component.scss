@@ -11,12 +11,12 @@
     .menuItems{
         max-height: 0px;
         overflow: hidden;
-        transition: max-height 0.5s linear;
+        transition: max-height 1s ease-in-out;
         display: flex;
         flex-direction: column;
+        gap: 10px;
         >*{
             cursor: pointer;
-            padding-top: 15px;
             &.active{
                 text-decoration: underline;
             }
@@ -43,7 +43,21 @@
     }
     &.open{
         .menuItems{
-            max-height: 180px !important;
+            max-height: 180px;
         }
     }
+}
+@media screen and (min-width: 600px) {
+  .menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .menuItems{
+      flex-direction: row;
+      max-height: 180px !important;
+    }
+    .menuToggle {
+      display: none !important;
+    }
+  }
 }

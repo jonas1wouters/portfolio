@@ -17,13 +17,20 @@
             </div>
             <div class="text all" *ngIf="project.showDetails">
                 <p *ngFor="let line of project.text">{{line}}</p>
+                <div *ngIf="project.images" class="images">
+                  <div *ngFor="let image of project.images"><img [src]="image.link" alt="image.link"></div>
+                </div>
                 <span class="more" (click)="toggleProjectDetails(project.id)">Minder</span>
             </div>
+            <ul *ngIf="project.links">
+              <li *ngFor="let link of project.links"><a [href]="link.link" target="_blank">{{link.text}}</a></li>
+            </ul>
+
+            <ul class="skills">
+              <li *ngFor="let skill of project.skills">{{skill}}</li>
+            </ul>
             <ul class="tasks">
                 <li *ngFor="let task of project.tasks">{{task}}</li>
-            </ul>
-            <ul class="skills">
-                <li *ngFor="let skill of project.skills">{{skill}}</li>
             </ul>
         </div>
     </div>

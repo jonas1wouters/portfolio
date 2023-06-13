@@ -7,11 +7,11 @@ import { Component } from '@angular/core';
 })
 export class MenuComponent {
   menuOpen = false;
-  toggleMenu(){  
+  toggleMenu() {
     this.menuOpen = !this.menuOpen;
   }
 
-  linkClick(){
+  linkClick() {
     this.toggleMenu();
   }
 }

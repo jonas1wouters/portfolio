@@ -10,20 +10,19 @@ import { Project } from '../shared/models/project.model';
 export class PortfolioComponent implements OnInit {
   projects?: Array<Project>;
 
-  constructor(private projectService: ProjectService){}
-  
+  constructor(private projectService: ProjectService) { }
+
   ngOnInit(): void {
-      this.projects = this.projectService.getProjects().slice(1);
-    console.log(this.projects)
+    this.projects = this.projectService.getProjects().slice(1);
   }
 
-  toggleProjectDetails(id: number){
-    if(this.projects){
-      for(let i = 0; i < this.projects?.length; i++){
-        if(this.projects[i].id === id){
+  toggleProjectDetails(id: number) {
+    if (this.projects) {
+      for (let i = 0; i < this.projects?.length; i++) {
+        if (this.projects[i].id === id) {
           this.projects[i].showDetails = !this.projects[i].showDetails;
         }
-        else{
+        else {
           this.projects[i].showDetails = false;
         }
       }

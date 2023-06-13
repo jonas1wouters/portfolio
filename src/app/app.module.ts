@@ -12,6 +12,7 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { ContactComponent } from './contact/contact.component';
+import { ImageCarrouselComponent } from './image-carrousel/image-carrousel.component';
 
 @NgModule({
   declarations: [
@@ -23,18 +24,19 @@ import { ContactComponent } from './contact/contact.component';
     PortfolioComponent,
     AboutMeComponent,
     WelcomeComponent,
-    ContactComponent
+    ContactComponent,
+    ImageCarrouselComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     RouterModule.forRoot([
-      {path: "", component: HomeComponent},
-      {path: "stage", component: StageComponent},
-      {path: "about-me", component: AboutMeComponent},
-      {path: "portfolio", component: PortfolioComponent},
-      {path: "contact", component: ContactComponent},
-      {path: "**", redirectTo: ""}
+      { path: "", component: HomeComponent },
+      { path: "stage", component: StageComponent },
+      { path: "about-me", component: AboutMeComponent },
+      { path: "portfolio", component: PortfolioComponent },
+      { path: "contact", component: ContactComponent },
+      { path: "**", redirectTo: "" }
     ])
   ],
   providers: [],
